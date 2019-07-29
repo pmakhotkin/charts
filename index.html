@@ -17,50 +17,47 @@
     <a class="navbar-brand">
         <img src="img/logo-ss-sds.png" width="300" height="200" alt="">
     </a>
-    <h1 class="title">INBOUND/OUTBOUND DASHBOARD</h1>
+    <h2 class="title">INBOUND/OUTBOUND DASHBOARD</h2>
 </nav>
 <div class="row">
     <div class="col-md-6 p-3">
-        <h2 class="text-md-center">Daily Outbound</h2>
-        <nav class="navbar navbar-dark bg-light">
-            <h3 class="text-md-center">OUTBOUND(CE)</h3>
-        </nav>
+        <h2 class="text-sm-center header">Daily Outbound</h2>
+            <h3 class="text-md-center part-header">OUTBOUND(CE)</h3>
         <div class="row">
             <div class="col-md-6">
-            <h4 class="text-md-center">Volume(CBM)</h4>
-            <canvas id="v_cbm"></canvas>
+                <h4 class="text-sm-center chart-header">Volume(CBM)</h4>
+            <canvas class="charts" id="v_cbm"></canvas>
         </div>
             <div class="col-md-6">
-                <h4 class="text-md-center">Volume(TRUCK)</h4>
-                <canvas id="myChart2"></canvas>
+                <h4 class="text-sm-center chart-header">Volume(TRUCK)</h4>
+                <canvas class="charts" id="v_truck"></canvas>
             </div>
         </div>
-        <!--<div class="row">
-            <div class="col-md-6">
-                <h4 class="text-md-center">Volume by city(CBM)</h4>
-                <canvas id="myChart3"></canvas>
+       <div class="row">
+            <div class="col-md-6 p-3">
+                <h4 class="text-md-center chart-header-type2">Volume by city(CBM)</h4>
+                <canvas class="charts" id="vbct_cbm"></canvas>
             </div>
-            <div class="col-md-6">
-                <h4 class="text-md-center">Volume by product(CBM)</h4>
-                <canvas id="myChart4"></canvas>
+            <div class="col-md-6 p-3">
+                <h4 class="text-md-center chart-header-type2">Volume by product(CBM)</h4>
+                <canvas class="charts" id="vbp_cbm"></canvas>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h4 class="text-md-center">Volume by customer(CBM)</h4>
-                <canvas id="myChart5"></canvas>
+                <h4 class="text-md-center chart-header-type3">Volume by customer(CBM)</h4>
+                <canvas class="charts" id="vbc_cbm"></canvas>
             </div>
             <div class="col-md-6">
-                <h4 class="text-md-center">Volume by product(TRUCK)</h4>
-                <canvas id="myChart6"></canvas>
+                <h4 class="text-md-center chart-header-type3">Volume by product(TRUCK)</h4>
+                <canvas class="charts" id="vbp_truck"></canvas>
             </div>
-        </div>-->
+        </div>
     </div>
     <div class="col-md-6 p-3">
-        <h2 class="text-md-center">Daily Outbound</h2>
-        <nav class="navbar navbar-dark bg-light">
-            <h3 class="text-md-center">INBOUND</h3>
-        </nav>
+        <h2 class="text-md-center header">Daily Outbound</h2>
+            <h3 class="text-md-center part-header">INBOUND</h3>
+
        <!-- <div class="row">
             <div class="col-md-6">
                 <h4 class="text-md-center">Volume(CBM)</h4>

@@ -1,10 +1,35 @@
-body{
-    background-color: #ffffff;
+body {
+    background-color: #000000;
 }
+
 .logo {
     background: #9795ff;
 }
 
 .title {
     color: #ffffff;
+}
+
+.header {
+    color: #ffffff;
+}
+
+.part-header {
+    background-color: #fff;
+}
+
+.chart-header {
+    color: #00B0F0;
+}
+
+.chart-header-type2 {
+    color: #FFC000;
+}
+
+.chart-header-type3 {
+    color: #ffffff;
+}
+
+.charts {
+    background: #3d3f45;
 }

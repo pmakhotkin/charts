@@ -7,6 +7,10 @@ $password = '1'; // пароль
 
 $link = mysqli_connect($host, $user, $password, $database1)
 or die("Ошибка подключения к outbound DB" . mysqli_error($link));
+mysqli_query ($link,"set_client='utf8'");
+mysqli_query ($link,"set character_set_results='utf8'");
+mysqli_query ($link,"set collation_connection='utf8_general_ci'");
+mysqli_query ($link,"SET NAMES utf8");
 
 // Запрос данных из outbound_cbm
 

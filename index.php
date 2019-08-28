@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>INBOUND/OUTBOUND DASHBOARD</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <?php
@@ -33,7 +33,7 @@
 </script>
 <nav class="navbar navbar-dark logo">
     <a class="navbar-brand">
-        <img src="img/logo-ss-sds.png" width="300" height="200" alt="">
+        <img alt="" height="200" src="img/logo-ss-sds.png" width="300">
     </a>
     <h2 class="title">INBOUND/OUTBOUND DASHBOARD</h2>
 </nav>
